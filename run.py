@@ -14,5 +14,5 @@ threading.Thread(target=get)
 
 print(app.url_map)
 
-app.run(debug=True)
+app.run(debug=False)
 
